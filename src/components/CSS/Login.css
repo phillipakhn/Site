@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  color: rgb(73, 64, 64);
+}
+
+.login h2 {
+  font-size: 2.5em;
+}
+
+.login input {
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 100%; /* Make the input fields take up the full width */
+  max-width: 300px; /* Limit the maximum width */
+}
+
+.login button {
+  margin: 0.5em;
+  padding: 1em; /* Increase the padding */
+  font-size: 1em;
+  background-color: #365897;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Make the button take up the full width */
+  max-width: 300px; /* Limit the maximum width */
+}
+
+.login button:hover {
+  background-color: darkblue;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+  .login {
+    padding: 1em; /* Add some padding */
+  }
+}

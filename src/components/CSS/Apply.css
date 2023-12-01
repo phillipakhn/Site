@@ -1,0 +1,22 @@
+.dropzone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 2px dashed #365897;
+  margin: 1em;
+  padding: 1em;
+  color: #365897;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.dropzone p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .dropzone {
+    width: 100%;
+  }
+}
